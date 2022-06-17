@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeClan Practice Website</title>
+    <link rel="stylesheet" href="style.css" 
+</head>
+
+<header><h1>Software Development Portfolio</h1></header>
+
+<body>
+    <main>
+
+    <h2 id="page-subheading">Here's me learning how to build an HTML website</h2>
+
+
+<hr>
+
+    <nav class="navigation-bar">
+        <ul>
+            <a id="soundcloud" href= "http://www.soundcloud.com/brian-messi-cowie" target="_blank"> Hear some of my music on Soundcloud</a></li>
+            <a id="flickr" href= "http://www.flickr.com/photos/briancowie" target="_blank"> See some of my photos on Flickr</a></li>
+            <a id="github" href= "http://www.github.com/briancowie" target="_blank"> Check out some development work on Github</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section class="about-me">
+        <h3>About me</h3>
+        <img src="images/profilephoto.jpeg" alt = "Profile photo of Brian"/>
+        <p>Hello! I'm Brian and I'm currently an Apprentice Software Developer at Lloyds Banking Group. Currently I'm undertaking a course with CodeClan and we are learning how to use HTML to build a basic website.<br>
+        Originally I wrote that I know that I shouldn't be using line breaks here at the moment because this would be a very long line of text! I was using it for presentation which would change once I know some CSS, but Chrome seemed to have done it for me.<br>
+        Then I realised it was the size of my browser window so I added them back in.
+    </p>
+    </section>
+
+    <hr>
+    
+    <section>
+        <h3>What have I been learning?</h3>
+        <h4>Week 1:</h4>
+        <ul>
+            <li>Javascript:
+                <ol>
+                    <li>Functions</li>
+                    <li>Loops/Arrays/Objects</li>
+                    <li>Object Oriented Development</li>
+                    <li>Packages</li>
+                    <li>Test Driven Development</li>
+                </ol>
+            </li>
+        </ul>
+        <h4>Week 2:</h4>
+        <ul>
+            <li>HTML & CSS:</li>
+            <ol>
+                <li>Basic HTML</li>
+                <li>more to come...</li>
+            </ol>
+        </ul>
+    </section>
+
+    <hr>
+
+    <aside>
+        <h3>Who lives in my house with me? A chance to practice tables!</h3>
+        <table>
+            <thead>
+            <tr>
+              <th>Person/Pet</th>
+              <th>Age</th>
+              <th>Hobbies</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Brian</td>
+                <td>30</td>
+                <td>Music, gaming, diving, photography, coding</td>
+            </tr>
+            <tr>
+                <td>Sophie</td>
+                <td>31</td>
+                <td>Reading, crafting, shopping, walking</td>
+            </tr>
+            <tr>
+                <td>Mollie</td>
+                <td>2</td>
+                <td>Laying around in the sun doing nothing</td>
+            </tr>
+            <tr>
+              <td>Peach</td>
+              <td>4 months</td>
+              <td>Eating everything she's not supposed to eat</td>
+            </tr>
+          </table>          
+    </aside>
+
+    <hr>
+
+    <figure>
+        <figcaption>
+            Want to hear a song I made? I want to practice embedding audio. Listen below:
+        </figcaption>
+            <audio
+                controls
+                src="audio/hopeandpray.mp3"></audio>
+            </audio>
+        
+
+    </figure>
+    
+    <hr>
+
+    <h5>I'm not sure why you'd want to, but you can send me a message using the form below if you want:</h5>
+
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+         <li>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="mail">E-mail:</label>
+           <input type="email" id="mail" name="user_email">
+         </li>
+         <li>
+           <label for="msg">Message:</label>
+           <textarea id="msg" name="user_message"></textarea>
+         </li>
+         <li>
+            <input type="button" value="Submit">
+         </li>
+        </ul>
+       </form>       
+
+
+    </main>
+
+    <footer>
+        <p>Brian Cowie 2022</p>
+    </footer>
+</body>
+</html>

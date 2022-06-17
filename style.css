@@ -1,0 +1,79 @@
+html {
+    background-color: gainsboro;
+}
+
+header {
+    text-align: center;
+}
+
+#page-subheading {
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+    background-color: bisque;
+}
+
+.about-me > img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    float: right;
+}
+
+.navigation-bar {
+    display: inline-block;
+    width: 100%;
+    background-color: lightgrey;
+    font-family:'Courier New', Courier, monospace
+}
+
+.navigation-bar a {
+    max-width: 33.33%;
+    text-align: center;
+    padding: 10px;
+    border: 2px;
+    border-style: dotted;
+    box-sizing: border-box;
+}
+
+table {
+    table-layout: fixed;
+    width: 40%;
+    border: 2px solid blue;
+}
+
+thead th:nth-child(1) {
+    width: 5%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 5%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 20%;
+  }
+    
+  th, td {
+    padding: 20px;
+  }
+
+  thead {
+    background-color: lightgreen;
+  }
+    
+  tbody td {
+    text-align: center;
+    background-color: rgb(239, 200, 24);
+  }
+
+  footer {
+    text-align: center;
+    
+  }
